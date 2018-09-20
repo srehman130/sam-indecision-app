@@ -46,7 +46,7 @@ export default class MyApp extends React.Component {
         } catch(e) {
 
         }
-    }
+    };
     componentDidUpdate(prevProps, prevState) {
         console.log('Updated!');
 
@@ -54,7 +54,7 @@ export default class MyApp extends React.Component {
             const json = JSON.stringify(this.state.options);
             localStorage.setItem('options', json);
         }
-    }
+    };
     render() {
         const subtitle = 'Let me decide what you should do!';
 
