@@ -1,0 +1,27 @@
+.error {
+    color: $off-white;
+    font-style: italic;
+}
+
+.add-option {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-option__text {
+    flex-grow: 1;
+    background: $off-black;
+    border: none;
+    border-bottom: .3rem solid lighten($off-black, 15%);
+    color: white;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .add-option {
+        flex-direction: column;
+    }
+    .add-option__text {
+        padding: $m-size 0;
+        margin: .3rem 0;
+    }
+}

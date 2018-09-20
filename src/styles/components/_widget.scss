@@ -1,0 +1,20 @@
+.widget-header {
+    background: $blue;
+    padding: $m-size;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-header__text {
+    margin: 0;
+}
+
+.widget-header--body {
+    background: $dark-blue;
+    border-bottom: .1rem solid lighten($dark-blue, 15%);
+}
+
+.widget-header--body__option {
+    word-break: break-all;
+}
