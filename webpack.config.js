@@ -5,7 +5,7 @@ module.exports = (env) => {
     const CSSExtract = new ExtractTextPlugin('styles.css');
     return {
         mode: env === 'production' ? 'production' : 'development',
-        entry: './src/playground/revel.js',
+        entry: './src/app.js',
         output: {
             path: path.join(__dirname, 'public'),
             filename: 'bundle.js'
